@@ -1,5 +1,6 @@
 <script setup>
-import FormLesson from "./components/Form/FormLesson.vue";
+// import FormLesson from "./components/Form/FormLesson.vue";
+import WeatherChart from "./components/WeatherChart/WeatherChart.vue";
 // import FirstLesson from "./components/FirstLesson.vue";
 </script>
 
@@ -7,7 +8,8 @@ import FormLesson from "./components/Form/FormLesson.vue";
   <!-- <div id="app">
     <FirstLesson />
   </div> -->
-  <FormLesson />
+  <!-- <FormLesson /> -->
+  <WeatherChart />
 </template>
 
 <style scoped></style>
